@@ -38,6 +38,10 @@ a {
   float:right;
 }
 
+span{
+  padding: 2px 2px 2px 2px;
+}
+
 aside{
   background-color: white;
   float:right;
