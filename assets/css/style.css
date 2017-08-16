@@ -28,7 +28,7 @@ nav{
 }
 
 body{
-  background-image: url("/Users/brendandailey/class/Homework/Basic-Portfolio/assets/images/background.jpg");
+  background-image: url("Users/brendandailey/class/Homework/Basic-Portfolio/assets/images/background.jpg");
   background-repeat: repeat;
 }
 
@@ -128,4 +128,36 @@ section{
 .rps{
   width:250px;
   height:200px;
+}
+
+@media screen and (min-width: 980px) {
+     {
+        header {
+          
+        }
+
+        article{
+
+        }
+
+        aside{
+
+        }
+
+        footer{
+
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+     {
+
+    }
+}
+
+@media screen and (min-width: 640px) {
+     {
+        background-color: lightgreen;
+    }
 }
