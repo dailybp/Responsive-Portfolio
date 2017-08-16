@@ -28,7 +28,7 @@ nav{
 }
 
 body{
-  background-image: url("Users/brendandailey/class/Homework/Basic-Portfolio/assets/images/background.jpg");
+  background-image: url("/Users/brendandailey/GW_Coding_Class/Homework/Responsive-Portfolio/assets/images/background.jpg");
   background-repeat: repeat;
 }
 
@@ -133,7 +133,7 @@ section{
 @media screen and (min-width: 980px) {
      {
         header {
-          
+
         }
 
         article{
