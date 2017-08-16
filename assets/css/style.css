@@ -96,6 +96,7 @@ footer{
   width:97%;
   background-color: white;
   text-align:right;
+  left: 0;
 }
 .porfolio{
   background-color: white;
@@ -132,32 +133,39 @@ section{
 
 @media screen and (min-width: 980px) {
      {
-        header {
-
+        /* The bio moves below the profilePic */
+        .biography {
+          clear: left;
         }
-
-        article{
-
-        }
-
-        aside{
-
-        }
-
-        footer{
-
-        }
-    }
 }
 
 @media screen and (min-width: 768px) {
      {
-
+       /* When on a tablet, move the aside to the left side below the about me bio.*/
+       aside{
+         display: flex;
+         justify-content: flex-start;
+       }
     }
 }
 
 @media screen and (min-width: 640px) {
      {
-        background-color: lightgreen;
-    }
+       /* moves the navbar below the main header*/
+       nav{
+
+       }
+
+       /* The bio moves below the profilePic */
+       .biography{
+         clear: left;
+       }
+
+       /* When on a tablet, move the aside to the left side below the about me bio.*/
+       aside{
+         display: flex;
+         justify-content: flex-start;
+       }
+
+       /* */
 }
